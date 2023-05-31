@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="body">
+      <h1 id="username"></h1>
+      <div>
+        <button id="btn">button</button>
+        <button id="increaseFont">+</button>
+        <button id="decreaseFont">-</button>
+        <h1 id="btnText"></h1>
+      </div>
+      <div>
+        <input type="text" id="inputText" />
+        <button id="inputBtn">adding</button>
+        <ul id="addingTo">
+          <li></li>
+        </ul>
+      </div>
+      <div>
+        <button id="changeImage">change Image</button>
+
+        <img id="image" src="https://picsum.photos/200" alt="" />
+      </div>
+      <div>
+        <input type="number" id="num1" />
+        <input type="number" id="num2" />
+        <button id="sum">+</button>
+        <button id="sub">-</button>
+        <button id="mul">*</button>
+        <button id="div">%</button>
+        <h1 id="result"></h1>
+      </div>
+    </section>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
